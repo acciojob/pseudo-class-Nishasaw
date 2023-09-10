@@ -7,21 +7,21 @@
 
 /* Create a pseudo-element before the container */
 #container::before {
-    content: "Before Text";
+    content: "Before Element";
     color: #f00; /* Red color */
     font-size: 20px;
     position: absolute;
-    left: -100px; /* Adjust as needed for spacing */
+    left: -140px; /* Adjust as needed for spacing */
     top: 0;
 }
 
 /* Create a pseudo-element after the container */
 #container::after {
-    content: "After Text";
+    content: "After Element";
     color: #f00; /* Red color */
     font-size: 20px;
     position: absolute;
-    right: 240px; /* Adjust as needed for spacing */
+    right: 200px; /* Adjust as needed for spacing */
     top: 0;
 }
 
