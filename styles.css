@@ -1,6 +1,8 @@
 #container {
     margin: 20px;
-    position: relative; /* Needed for pseudo-elements */
+    position: relative;
+	font-size: 20px;
+	/* Needed for pseudo-elements */
 }
 
 /* Create a pseudo-element before the container */
@@ -9,7 +11,7 @@
     color: #f00; /* Red color */
     font-size: 20px;
     position: absolute;
-    left: -60px; /* Adjust as needed for spacing */
+    left: -100px; /* Adjust as needed for spacing */
     top: 0;
 }
 
@@ -19,7 +21,7 @@
     color: #f00; /* Red color */
     font-size: 20px;
     position: absolute;
-    right: -60px; /* Adjust as needed for spacing */
+    right: 240px; /* Adjust as needed for spacing */
     top: 0;
 }
 
